@@ -9,4 +9,4 @@ A simple python text editor built with Tkinter.
 - Confirmation dialog on Exit
 - dark / light mode
 
-![image alt]("https://github.com/rajaditya1111/textpad/blob/main/pic.png")
+![image alt](https://github.com/rajaditya1111/textpad/blob/main/pic.png)
