@@ -3,11 +3,10 @@ from tkinter.filedialog import asksaveasfilename, askopenfilename
 from tkinter import messagebox
 
 app = Tk()
-app.title('textpadd')
+app.title('Textpadd')
 
 edit = Text()
 edit.pack()
-
 
 filepath = ''
 
@@ -32,7 +31,6 @@ def save():
 
 
 def saveAs():
-    
     path = asksaveasfilename(filetypes=[("textdata Files", "*.txt"),("All Files", "*.*")])
 
     with open(path, 'w') as file:
@@ -72,7 +70,6 @@ def darkMode():
         )
         app.config(bg="white") 
         filemenu.config(bg="white", fg="black")
-
 
 
 def exitApp():
